@@ -26,7 +26,7 @@ export default function App() {
   ? Math.round((votes.good / totalVotes) * 100)
   : 0
 
-  const canReset = totalVotes > 0
+  const canReset = totalVotes > 0;
 
   return (
     <>
